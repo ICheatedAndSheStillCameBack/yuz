@@ -33,7 +33,10 @@ for i, v in pairs(hwidPaste) do
     end
 end
 
-setclipboard(hwid)
+print(hwid)
+-- run the script, then type "/console" in chat. You will see a hardware id code.
+-- 2nd step is to delete, "print(hwid)" and replace it with setclipboard(hwid)
+-- then re run the script and send the hardware id code to jaylen#0001 to get whitelisted.
 
 
 
@@ -3134,3 +3137,9 @@ CE:FireEvent("PompousTheCloud",MainUserW["1374269"]["Handle"],"Parent",workspace
 CE:FireEvent("PompousTheCloud",MainUserW["1374269"]["Handle"],"Transparency","0")
 MainUserW.KittyEars:Remove()
 end
+    
+
+    
+
+
+
